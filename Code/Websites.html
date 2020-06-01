@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galatée</title>
+
+    <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+
+<body>
+    <!-- parallax star background-->
+    <section class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+          <div id="dismiss">
+              <i class="fas fa-arrow-left"></i>
+          </div>
+
+          <div class="sidebar-header">
+            <img src="../Ressources\img\moi.png" style="border-radius: 100px;margin-left: 50px;" width="100" height="100" alt="" loading="lazy">
+          </div>
+
+          <ul class="list-unstyled components">
+              <h3 style="margin-left: 40px;margin-bottom: 15px;">VIDAL Robin</h3>
+              <li class="active">
+                <a href="index.html">Accueil</a>
+              </li>
+              <li>
+                  <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">A propos</a>
+                  <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li>
+                          <a href="Websites.html">Websites</a>
+                      </li>
+                      <li>
+                          <a href="Travaux.html">Travaux</a>
+                      </li>
+                      <li>
+                          <a href="Programmes.html">Programmes</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                <a href="Twitch.html">Twitch</a>
+              </li>
+              <li>
+                  <a href="Mon CV.html">Mon CV</a>
+              </li>
+              <li>
+                  <a href="Contact.html">Contact</a>
+              </li>
+          </ul>
+
+          <ul class="list-unstyled CTAs">
+            <li>
+                <a href="#" class="download">Mon Github</a>
+            </li>
+            <div class="container marketing">
+              <!-- 4 columns of text below the carousel -->
+              <div class="row" style="margin-right: 5px;padding-top: 15px;">
+                <div class="col-lg-3">
+                  <a href="https://discord.gg/U8smx6Y"><img src="..\Ressources\img\discord-picture.png" style="border-radius: 100%;box-shadow: 1px 1px 8px #000000;" width="35" height="35"><title>Discord</title></img></a>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-3">
+                  <a href="https://www.youtube.com/channel/UCGA_E31udGbAy_685X6lI5w?view_as=subscriber"><img src="..\Ressources\img\youtube-picture.png" style="border-radius: 100%;box-shadow: 1px 1px 8px #000000;" width="35" height="35"><title>Youtube</title></img></a>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-3">
+                  <a href="https://twitter.com/Galatee_TV"><img src="..\Ressources\img\twiter-picture.png" style="border-radius: 100%;box-shadow: 1px 1px 8px #000000;" width="35" height="35"><title>Twitter</title></img></a>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-3">
+                  <a href="https://www.facebook.com/galatee.TV"><img src="..\Ressources\img\facebook-picture.png" style="border-radius: 100%;box-shadow: 1px 1px 8px #000000;" width="35" height="35"><title>Facebook</title></img></a>
+
+                </div><!-- /.col-lg-4 -->
+              </div>
+              </div>
+        </ul>
+    </nav>
+
+      <!-- menu button  -->
+      <div id="content">
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+
+                  <button type="button" id="sidebarCollapse" class="btn btn-info" style="border-radius: 100px;background: white;border-color: white;" >
+                      <i class="fas fa-bars" style="color: black;"></i>
+                  </button>
+                  <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-bars"></i>
+                  </button>
+              </div>
+          </nav>
+        </div>
+    <div class="overlay"></div>
+
+    <br><br><br><br>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Websites
+                <span class="badge badge-pill badge-info">New</span>
+            </h1>
+            <p class="lead">Ici vous pouvez consulter toutes mes créations</p>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- cards 1 2 3 -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <!-- card 1 -->
+                <div class="col-sm-4">
+                    <div class="card" style="box-shadow: 1px 1px 12px #17a2b8;">
+                        <div class="card h-100">
+                            <img src="#" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mini Projet</h5>
+                                <p class="card-text">Lecture en temps réel de plusieurs capteurs à l'aide d'une carte arduino uno.</p>
+                                <a href="#" class="btn btn-info">Vers le site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-sm-4">
+                    <div class="card" style="box-shadow: 1px 1px 12px #17a2b8;">
+                        <div class="card h-100">
+                            <img src="#" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Homophobia in our society</h5>
+                                <p class="card-text">Arcticle contre l'homophobie.<br>[EN]<br></p>
+                                <a href="#" class="btn btn-info">Vers le site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-sm-4">
+                    <div class="card" style="box-shadow: 1px 1px 12px #17a2b8;">
+                        <div class="card h-100">
+                            <img src="#" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mini Projet</h5>
+                                <p class="card-text">Lecture en temps réel de plusieurs capteurs à l'aide d'une carte arduino uno.</p>
+                                <a href="#" class="btn btn-info">Vers le site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- javascript-->
+    <script src="style.js"></script>
+
+
+</body>
+</html>
